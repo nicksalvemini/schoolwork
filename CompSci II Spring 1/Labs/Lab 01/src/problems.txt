@@ -1,0 +1,18 @@
+Java Problems
+
+For each of the numbered problems:
+- State whether the problem occurs at compile-time or run-time
+- Briefly describe what the problem is in plain English
+
+1. Compile-time error - Class name must be the same as .java file name ("Problem1" != "Problem").
+2. Compile-time error - Scanner inputs are of type String by default, cannot assign a string to an int.
+3. Runtime error - Cannot Divide by 0.
+4. Compile-time error - Parameter y is not given a type.
+5. Compile-time error - No return statement for when x > y.
+6. Runtime error - The list.get(0) will return an index out of bounds because the ArrayList is empty.
+7. Compile-time error - Single quotes need to be used for character types, normal quotes indicate a String.
+8. Compile-time error - The variable j was never initialized.
+9. Compile-time error - By default, 0.0 is type double, and cannot be put into a float. 0 is type float by default
+                        and should have been used.
+10. Runtime error - The string "Hello world" does not have 12 characters. The substring range will result
+                        in an index out of bounds error.
