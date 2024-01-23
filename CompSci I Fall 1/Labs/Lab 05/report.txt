@@ -1,0 +1,32 @@
+Nick Salvemini
+Answers to questions
+
+1.)     The purpose of the pivot is to be a value that can split the original list
+	into to lists, one of values smaller than the pivot, and one of values
+	larger than the pivot. We do not need to make the middle item as the
+	pivot. In an unsorted list, it does not matter what item is chosen to
+	be the pivot value, as the average efficiency will be the same. In a
+	sorted list, choosing the first item as the pivot each time would
+	drastically decrease efficiency, because the original list would never
+	actually be split up, because it would always just be the larger list
+	being used.
+
+2.)     To fully exercise quickselect, we could use the following test cases:
+	Finding the smallest value in an unsorted list:
+		list[40, 56, 32, 17, 90], Expected 17
+	Finding the largest value in an unsorted list:
+		list[40, 56, 32, 17, 90], Expected 90
+	Finding the (k+1)th smallest value in an unsorted list:
+		list[40, 56, 32, 17, 90, 62, 88]
+			k = 0, Expected 17
+			k = 1, Expected 32
+			k = 2, Expected 40
+			k = 3, Expected 56
+			k = 4, Expected 62
+			k = 5, Expected 88
+			k = 6, Expected 90
+3.)     The sorting program takes much longer for large data sets. For the data set
+	of 10K buildings, it took about 4.5 seconds each time, and for the data set
+	of 25K buildings, it took about 30 seconds each time. For the quickselect
+	algorithm, the data set of 10K buildings took about .004 seconds each time,
+	while the data set of 25K buildings took about .01 seconds each time.
