@@ -1,0 +1,26 @@
+/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/bin/java -javaagent:/Users/sps/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/213.6777.52/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=51587:/Users/sps/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/213.6777.52/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/sps/Documents/CS2/20215/Labs/07-Magnets/out/production/Magnets:/Users/sps/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar:/Users/sps/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/Users/sps/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/sps/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/Users/sps/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/sps/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar:/Users/sps/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:/Users/sps/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:/Users/sps/.m2/repository/org/junit/jupiter/junit-jupiter/5.7.0/junit-jupiter-5.7.0.jar:/Users/sps/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/Users/sps/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/sps/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/Users/sps/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar:/Users/sps/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/Users/sps/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar magnets.Magnets data/magnets-7.txt false
+File: data/magnets-7.txt
+Rows: 2, Columns: 3
+Pairs:
+L R T
+L R B
+Initial config:
++ 1 1 0
+  -----
+ |. . .|1
+1|. . .|
+  -----
+  1 1 0  -
+
+Solution:
++ 1 1 0
+  -----
+ |+ - X|1
+1|- + X|
+  -----
+  1 1 0  -
+
+Elapsed time: 0.0 seconds.
+34 configurations generated.
+
+Process finished with exit code 0

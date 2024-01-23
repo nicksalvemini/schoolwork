@@ -1,0 +1,10 @@
+4 4
+O . O . O | O
+.   .   .   -
+O | O . O . O
+.   .   -   -
+O | O . O . O
+.   .   .   .
+O | O | O . O
+
+Problem-solving question 2

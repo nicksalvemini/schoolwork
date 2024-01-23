@@ -1,0 +1,11 @@
+Graph Details:
+
+Node (0,0):
+
+     0 
+   +---+
+  0|   |
+   +---+
+Enter starting coordinates. (row, then column) Enter pot of gold coordinates. (row, then column) Finding shortest path...
+The path is (0,0) 
+Enter starting coordinates. (row, then column) 

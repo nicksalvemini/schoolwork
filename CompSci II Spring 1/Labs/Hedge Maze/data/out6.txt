@@ -1,0 +1,36 @@
+Graph Details:
+
+Node (0,0): (0,1) (1,0)
+Node (0,1): (0,0) (0,2) (1,1)
+Node (0,2): (0,1) (1,2)
+Node (0,3):
+Node (1,0): (0,0) (2,0)
+Node (1,1): (0,1) (1,2) (2,1)
+Node (1,2): (0,2) (1,1) (1,3)
+Node (1,3): (1,2)
+Node (2,0): (1,0) (3,0)
+Node (2,1): (1,1) (2,2) (3,1)
+Node (2,2): (2,1) (2,3) (3,2)
+Node (2,3): (2,2) (3,3)
+Node (3,0): (2,0)
+Node (3,1): (2,1)
+Node (3,2): (2,2) (3,3)
+Node (3,3): (2,3) (3,2)
+
+     0   1   2   3 
+   +---+---+---+---+
+  0|           |   |
+   +   +   +   +---+
+  1|   |           |
+   +   +   +---+---+
+  2|   |           |
+   +   +   +   +   +
+  3|   |   |       |
+   +---+---+---+---+
+Enter starting coordinates. (row, then column) Enter pot of gold coordinates. (row, then column) Finding shortest path...
+The path is (3,0) (2,0) (1,0) (0,0) (0,1) (0,2) (1,2) (1,3) 
+Enter starting coordinates. (row, then column) Enter pot of gold coordinates. (row, then column) Finding shortest path...
+No path was found.
+Enter starting coordinates. (row, then column) Enter pot of gold coordinates. (row, then column) Finding shortest path...
+The path is (1,0) (0,0) (0,1) (0,2) (1,2) (1,3) 
+Enter starting coordinates. (row, then column) 
